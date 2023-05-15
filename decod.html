@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Decodificador Alura</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="decodi_style.css">
+    </head>
+    <body>
+        <section class="container">
+            <img src="Vector.png" alt="logo do Decodificador">
+            <div class="criptografar">
+                <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Digite seu texto aqui..."></textarea>  
+            </div>
+            <div class="regras">
+                <p>Use somente letras minúsculas e sem acento.</p>
+            </div> 
+            <div class="botões">
+                <button class="btn-criptografar" type="button" onclick="criptografar()">Criptografar</button>
+                <button class="btn-descriptografar" type="button" onclick="descriptografar()">Descriptografar</button>
+
+            </div> 
+            <div class="criptografado">
+                <img src="logo2.png" alt="Logo do Decodificador" id="ilustração">
+                <div class="texto-criptografado" id="texto-criptografado">
+                    <h2 id="titulo">Nenhuma mensagem foi encontrada!</h2>
+                    <p id="aviso">Digite um texto que você deseja criptografar ou descriptografar.</p>   
+             
+                </div>
+                 
+
+
+                <footer class="rodape">
+                    <h3>&copy;Copyright Desenvolvido por Thayná Abrahão</h3>             
+                </footer>
+            </div>
+
+            
+        </section>
+    </body>
+    <script src="decod.js"></script>
+</html>    
